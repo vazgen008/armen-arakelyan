@@ -1,13 +1,13 @@
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import { Play, ExternalLink, X } from 'lucide-react';
-import Informative from '@/assets/informative.mp4';
-import Product from '@/assets/informative.mp4';
-import Evemt from '@/assets/informative.mp4';
-import Funny from '@/assets/informative.mp4';
-import Sales from '@/assets/informative.mp4';
-import Brand from '@/assets/informative.mp4';
-import Travel from '@/assets/informative.mp4';
+import Informative from '@/assets/informativ.mp4';
+import Product from '@/assets/productt.mp4';
+import Evemt from '@/assets/eventt.mp4';
+import Funny from '@/assets/funny.mp4';
+import Sales from '@/assets/sales.mp4';
+import Brand from '@/assets/brand.mp4';
+import Travel from '@/assets/travell.mp4';
 
 const videos = [
   { id: 1, title: 'Brand Story', category: 'Informative', src: Informative },
