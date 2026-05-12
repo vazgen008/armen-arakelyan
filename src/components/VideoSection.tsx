@@ -8,6 +8,8 @@ import Funny from '@/assets/funny.mp4';
 import Sales from '@/assets/sales.mp4';
 import Brand from '@/assets/brand.mp4';
 import Travel from '@/assets/travell.mp4';
+import Comercial from '@/assets/IMG_6331.MOV';
+import Shop from '@/assets/travell.mp4';
 
 const videos = [
   { id: 1, title: 'Brand Story', category: 'Informative', src: Informative },
@@ -17,6 +19,8 @@ const videos = [
   { id: 5, title: 'Product Sale', category: 'Sales', src: Sales },
   { id: 6, title: 'Brand Promotion', category: 'Brand', src: Brand },
   { id: 6, title: 'Traveling', category: 'Travel', src: Travel },
+  { id: 6, title: 'Commercial', category: 'Commercial', src: Comercial },
+  { id: 6, title: 'Shop', category: 'Shop', src: Shop },
 ];
 
 export const VideoSection = () => {
