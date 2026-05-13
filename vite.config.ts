@@ -13,6 +13,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  // Add this line here to handle the .MOV file
+  assetsInclude: ["**/*.MOV"], 
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
