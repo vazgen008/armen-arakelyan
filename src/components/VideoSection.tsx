@@ -10,7 +10,7 @@ import Brand from '@/assets/brand.mp4';
 import Travel from '@/assets/travell.mp4';
 import Comercial from '@/assets/IMG_6331.MOV';
 import Shop from '@/assets/travell.mp4';
-import VideoJanBa from '@/assets/Comercial.MP4';
+import VideoJanBa from '@/assets/IMG_1817.mp4';
 
 const videos = [
   { id: 1, title: 'Brand Story', category: 'Informative', src: Informative },
