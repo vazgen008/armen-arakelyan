@@ -22,7 +22,7 @@ const videos = [
   { id: 6, title: 'Traveling', category: 'Travel', src: Travel },
   { id: 6, title: 'Commercial', category: 'Commercial', src: Comercial },
   { id: 6, title: 'Shop', category: 'Shop', src: Shop },
-    { id: 7, title: 'Comercial', category: 'Comercial', src: Commercial },
+  { id: 6, title: 'Shop', category: 'Shop', src: Shop },
   
 ];
 
