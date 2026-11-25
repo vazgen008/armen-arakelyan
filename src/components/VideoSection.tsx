@@ -10,6 +10,7 @@ import Brand from '@/assets/brand.mp4';
 import Travel from '@/assets/travell.mp4';
 import Comercial from '@/assets/IMG_6331.MOV';
 import Shop from '@/assets/travell.mp4';
+import Commercial from '@/assets/Comercial.mp4';
 
 const videos = [
   { id: 1, title: 'Brand Story', category: 'Informative', src: Informative },
@@ -21,7 +22,10 @@ const videos = [
   { id: 6, title: 'Traveling', category: 'Travel', src: Travel },
   { id: 6, title: 'Commercial', category: 'Commercial', src: Comercial },
   { id: 6, title: 'Shop', category: 'Shop', src: Shop },
+    { id: 7, title: 'Comercial', category: 'Comercial', src: Commercial },
+  
 ];
+
 
 export const VideoSection = () => {
   const sectionRef = useRef(null);
